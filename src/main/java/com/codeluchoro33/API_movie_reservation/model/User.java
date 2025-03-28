@@ -10,6 +10,7 @@ import org.hibernate.annotations.NaturalId;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 
 
 @Getter
@@ -35,4 +36,6 @@ public class User {
     )
     private Collection<Role> roles = new HashSet<>();
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true) // 💡 Relación con SeatReservation
+    private List<SeatReservation> reservations;
 }

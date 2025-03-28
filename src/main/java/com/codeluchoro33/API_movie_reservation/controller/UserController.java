@@ -8,7 +8,7 @@ import com.codeluchoro33.API_movie_reservation.model.User;
 import com.codeluchoro33.API_movie_reservation.request.RequestCreateUserLikeAdmin;
 import com.codeluchoro33.API_movie_reservation.request.RequestUpdateUserLikeAdmin;
 import com.codeluchoro33.API_movie_reservation.response.ApiResponse;
-import com.codeluchoro33.API_movie_reservation.security.user.IUserService;
+import com.codeluchoro33.API_movie_reservation.service.user.IUserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

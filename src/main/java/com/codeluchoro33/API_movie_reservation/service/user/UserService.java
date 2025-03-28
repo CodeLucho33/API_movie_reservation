@@ -1,4 +1,4 @@
-package com.codeluchoro33.API_movie_reservation.security.user;
+package com.codeluchoro33.API_movie_reservation.service.user;
 
 import com.codeluchoro33.API_movie_reservation.dto.UserDto;
 import com.codeluchoro33.API_movie_reservation.enums.RoleUser;

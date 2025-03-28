@@ -5,7 +5,7 @@ import com.codeluchoro33.API_movie_reservation.exeptions.AlreadyExistsException;
 import com.codeluchoro33.API_movie_reservation.model.User;
 import com.codeluchoro33.API_movie_reservation.request.RequestCreateUser;
 import com.codeluchoro33.API_movie_reservation.response.ApiResponse;
-import com.codeluchoro33.API_movie_reservation.security.user.IUserService;
+import com.codeluchoro33.API_movie_reservation.service.user.IUserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
